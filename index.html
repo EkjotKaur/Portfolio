@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+
+  <!--jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+  <!--Animate.CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!--Image Hover CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css"
+    integrity="sha512-SYBBAnJsPEzSQ/kBqkR/9krJ+EUgF624c8uaMBww1Q26pnCw5k7zVmtc48BfXjZ9MRNNBveIdhx/na1xRLWgjw=="
+    crossorigin="anonymous" />
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Ekjot Kaur</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="headnav" id="mynavbar">
+      <div class="navbutton" id="navbtn" onclick="openNav()">
+        <span>&#9776</span>
+      </div>
+      <div class="brandname" id="brandname">Ekjot Kaur</div>
+      <div class="navlinks" id="navlinks">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Experience</a>
+        <a href="">Projects</a>
+        <a href="">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="side">
+    <div class="fixedside" id="fixedside">
+      <a href=""><i class="fas fa-home"></i></a>
+      <a href=""><i class="fas fa-user"></i></a>
+      <a href=""><i class="fas fa-tasks"></i></a>
+      <a href=""><i class="fas fa-briefcase"></i></a>
+      <a href=""><i class="fas fa-folder-open"></i></a>
+      <a href=""><i class="fas fa-phone"></i></a>
+    </div>
+    <div class="sidenav" id="sidenav">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Skills</a>
+      <a href="">Experience</a>
+      <a href="">Projects</a>
+      <a href="">Contact</a>
+    </div>
+  </div>
+
+
+  <div class="screen">
+  <div class="home" id="home">
+    <div class="inner">
+      <div class="container">
+        <h1 class="name">
+          <div class="animate__animated animate__bounceInDown name-big durationAnimate-1">E</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-2">k</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-3">j</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-4">o</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-5 pe-3">t</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-6 name-big ps-3">K</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-7">a</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-8">u</div>
+          <div class="animate__animated animate__bounceInDown durationAnimate-9">r</div>
+        </h1>
+        <div class="desc">
+          <div class="animate__animated animate__fadeInLeft animate__delay-2s">Engineer</div>
+          <div>|</div>
+          <div class="animate__animated animate__fadeInRight animate__delay-2s">Developer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+    <h2 class="heading">About</h2>
+    <p></p>
+  </div>
+
+  <div class="skills">
+    <div class="container">
+      <h2 class="heading">Skills</h2>
+      <hr>
+      <div class="row justify-content-between align-items-between">
+        <div class="col-11 col-lg-6 p-xxl-5 p-lg-4 p-3 ">
+          <h3 class="subheading pt-5 pb-3">
+            Languages
+          </h3>
+          <div class="row justify-content-start align-items-center pe-lg-5 p-0" id="lang">
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C++.png">
+                <figcaption>
+                  C++
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C.png">
+                <figcaption>
+                  C
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/js.jpg">
+                <figcaption>
+                  Javascript
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/python.png">
+                <figcaption>
+                  Python
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <!--row-->
+          <h3 class="subheading pt-5 pb-3 change-1">
+            Other
+          </h3>
+          <div class="row justify-content-start align-items-center pe-lg-5 pe-0 change-1">
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C++.png">
+                <figcaption>
+                  Data Structures
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C++.png">
+                <figcaption>
+                  Algorithm
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/GIT.png">
+                <figcaption>
+                  Git
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/github.png">
+                <figcaption>
+                  GitHub
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-word.png">
+                <figcaption>
+                  Microsoft Word
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-excel.png">
+                <figcaption>
+                  Microsoft Excel
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-powerpoint.png">
+                <figcaption>
+                  Microsoft PowerPoint
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <!--row-->
+        </div>
+        <!--col-->
+        <div class="col-11 col-lg-6 p-xxl-5 p-lg-4 p-3 ">
+          <h3 class="subheading pt-5 pb-3">
+            Development
+          </h3>
+          <div class="row justify-content-start align-items-center ps-lg-5">
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/HTML5.png">
+                <figcaption>
+                  HTML
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/CSS3.png">
+                <figcaption>
+                  CSS
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/boostrap.png">
+                <figcaption>
+                  Bootstrap
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/jQuery.png">
+                <figcaption>
+                  jQuery
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/nodejs.png">
+                <figcaption>
+                  Node.js
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/express2.png">
+                <figcaption>
+                  Express.js
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/CSS3.png">
+                <figcaption>
+                  // Hover Content
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/mongodb.png">
+                <figcaption>
+                  MongoDB
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/REACTJS1.png">
+                <figcaption>
+                  React.js
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <!--row-->
+        </div>
+        <!--col-->
+        <div class="col-11 col-lg-6 p-xxl-5 p-lg-4 p-3  change-2">
+          <h3 class="subheading pt-5 pb-3">
+            Others
+          </h3>
+          <div class="row justify-content-start align-items-center ps-lg-5">
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C++.png">
+                <figcaption>
+                  Data Structures
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/C++.png">
+                <figcaption>
+                  Algorithm
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/GIT.png">
+                <figcaption>
+                  Git
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/github.png">
+                <figcaption>
+                  GitHub
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-word.png">
+                <figcaption>
+                  Microsoft Word
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-excel.png">
+                <figcaption>
+                  Microsoft Excel
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1 col-lg-2 skill">
+              <figure class="imghvr-zoom-out-flip-horiz skill-figure">
+                <img src="/img/microsoft-powerpoint.png">
+                <figcaption>
+                  Microsoft PowerPoint
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <!--row-->
+        </div>
+        <!--col-->
+      </div>
+      <!--row-->
+    </div>
+    <!--containter-->
+  </div>
+  <!--skills-->
+
+
+  <div class="education" id="education">
+    <div class="inner">
+      <div class="container">
+        <h2 class="heading2">Education</h2>
+        <!-- <h4 class="quote"><span>“"</span>The Best way to predict your Future is to create it.<span>”</span></h4> -->
+        <div class="row pt-md-5 pt-3 justify-content-between align-items-stretch">
+          <div class="col-lg-7 col-sm-10 col-11">
+            <div>
+              <h3 class="institution">Maharaja Surajmal Institue Of Technology</h4>
+              <h5 class="pb-3">Graduation</h5>
+              <h4 class="degree">Bachelor of Technology</h3>
+              <h4 class="degree">(Computer Science Engineering)</h3>
+              <p class="year">2019-2023</p>
+              <h4 class="score pt-2"><b>GPA: </b>9.426 (till date)</h4></h3>
+            </div>
+          </div><!--col-lg-6 col-sm-10 col-11-->
+          <div class="col-lg-5 col-md-10 col-11">
+            <div>
+              <h3 class="institution">Maxfort School, Rohini</h4>
+              <h5 class="pb-3">High School</h5>
+              <h4 class="degree">Science (PCM)</h3>
+              <p class="year">2015-2019</p>
+              <h4 class="score pt-2 pb-0"><b>Class 12th: </b>92.6%</h4></h3>
+              <h4 class="score"><b>Class 10th: </b>10.00 CGPA</h4></h3>
+            </div>
+          </div><!--col-6-->
+        </div><!--row-->
+      </div><!--container-->
+    </div><!--inner-->
+  </div><!--eduaction-->
+
+  <div class="experience" id="experience">
+    <div class="inner">
+      <div class="container">
+        <h2 class="heading2">Experience</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects" id="projects">
+    <div class="container">
+      <h2 class="heading">Projects</h2>
+      <hr>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <div class="container">
+      <h2 class="heading">Contact</h2>
+      <hr>
+      <p></p>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+<script src="js/navbar.js"></script>
+<script src="js/skills.js"></script>
+
+</html>
