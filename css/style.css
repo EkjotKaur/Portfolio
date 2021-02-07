@@ -127,7 +127,7 @@ a, a:link, a:active, a:visited{
 .home .inner{
   height: 100vh;
   background: rgb(51,51,51);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(55,55,55,0.8) 53%, rgba(0,0,0,1) 90%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(55,55,55,0.8) 53%, rgba(0,0,0,0.5) 90%);
   padding-top: 240px;
 }
 .name{
