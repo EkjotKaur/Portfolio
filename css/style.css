@@ -146,9 +146,10 @@ a, a:link, a:active, a:visited{
   text-shadow: 2px 2px #1a1b1b;
 }
 .about{
-  height: 1000px;
   overflow-x:hidden;
+  color: #000;
 }
+
 
 .heading, .heading2{
   font-size: 4.2rem;
@@ -156,6 +157,10 @@ a, a:link, a:active, a:visited{
   text-align: center;
   font-family: 'Cinzel', serif;
   padding-top: 50px;
+}
+/* .heading-about{
+  color: #000;
+  text-shadow: white; */
 }
 hr{
  width: 400px;
@@ -173,12 +178,13 @@ hr{
 }
 .subheading{
   font-size: 2.5rem;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 800;
   color:rgb(121, 2, 2);
   text-shadow: 1px 1px #000000;
 }
 .skill{
+  /* margin: auto; */
   color:white;
   background-color: #fff;
   margin: 15px 10px;
@@ -188,14 +194,17 @@ hr{
   align-items: center;
   overflow-x:hidden;
   padding: 0;
-  box-shadow: 5px 5px 5px 5px #888888;
+  /* box-shadow: 5px 5px 5px 5px #888888; */
   /* padding: 10px 0; */
+  border: 1px solid #000;
+  padding: 2px;
+  border-radius: 4px;
   
 }
-/* .skill-figure, .skill-figure img, .skill-figure figcaption{
-  height: 100px;
-  width: 80px;
-} */
+.skill-figure, .skill-figure img, .skill-figure figcaption{
+  height: 90px;
+  width: 70px;
+}
 .skill-figure{
   background-color: #fff;
   display: flex;
@@ -204,11 +213,14 @@ hr{
 }
 .skill-figure figcaption{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 0;
+  flex-direction: column;
+  padding: 10px 0;
   text-align: center;
   background-color: rgb(107, 6, 2);
+  /* width: 80px;
+  height: 100px; */
 }
 .durationAnimate-1{
   --animate-duration: 2s;
@@ -256,6 +268,10 @@ hr{
   padding-top: 350px;
   text-shadow: 3px 3px #000000;
   font-weight: 700;
+}
+.heading-about{
+  color: #000;
+  text-shadow: 3px 3px #aaa!important;
 }
 .institution{
   font-size: 2rem;
@@ -559,3 +575,89 @@ hr{
 } 
 
 
+/* ABOUT */
+.my-pic{
+  width: 100%;
+  /* float: right; */
+  /* padding: 0px 40px; */
+}
+.para{
+  font-size: 1.1rem;
+  padding: 10px 0px;
+}
+.about .details{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.about .details div {
+  width: 50%;
+  padding: 3px 0px;
+}
+.about{
+  text-align: justify;
+}
+
+.about span {
+  color: #5e0000;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.heading-about{
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1251px){
+  .para{
+    font-size: 1rem;
+  }
+  .about span{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .para, .about{
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 777px){
+  .about .details div {
+    width: 100%;
+    padding: 3px 0px;
+  }
+  .about span{
+    font-size: 1.1rem;
+  }
+}
+
+/* SKILLS */
+.skill{
+  width: 80px;
+  height: 100px;
+  overflow-y: hidden;
+}
+.skill-name{
+  font-size: 0.8rem;
+}
+.skill-score{
+  font-size: 1.2rem;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #5e0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+/* CONTACT */
+.contact-form{
+  border: 10px solid #5e0000;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
