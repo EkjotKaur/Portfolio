@@ -45,32 +45,32 @@
       </div>
       <div class="brandname" id="brandname">Ekjot Kaur</div>
       <div class="navlinks" id="navlinks">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Experience</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </nav>
 
   <div class="side">
     <div class="fixedside" id="fixedside">
-      <a href=""><i class="fas fa-home"></i></a>
-      <a href=""><i class="fas fa-user"></i></a>
-      <a href=""><i class="fas fa-tasks"></i></a>
-      <a href=""><i class="fas fa-briefcase"></i></a>
-      <a href=""><i class="fas fa-folder-open"></i></a>
-      <a href=""><i class="fas fa-phone"></i></a>
+      <a href="#about"><i class="fas fa-user"></i></a>
+      <a href="#skills"><i class="fas fa-tasks"></i></a>
+      <a href="#education"><i class="fas fa-briefcase"></i></a>
+      <a href="#experience"><i class="fas fa-briefcase"></i></a>
+      <a href="#projects"><i class="fas fa-folder-open"></i></a>
+      <a href="#contact"><i class="fas fa-phone"></i></a>
     </div>
     <div class="sidenav" id="sidenav">
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Skills</a>
-      <a href="">Experience</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Educatiom</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
 
@@ -79,6 +79,7 @@
   <div class="home" id="home">
     <div class="inner">
       <div class="container">
+        <div class="base">
         <h1 class="name">
           <div class="animate__animated animate__bounceInDown name-big durationAnimate-1">E</div>
           <div class="animate__animated animate__bounceInDown durationAnimate-2">k</div>
@@ -96,10 +97,11 @@
           <div class="animate__animated animate__fadeInRight animate__delay-2s">Developer</div>
         </div>
       </div>
+      </div>
     </div>
   </div>
 
-  <div class="about pb-5" id="about">
+  <div class="about pb-lg-5 mt-lg-4" id="about">
     <div class="container">
       <h2 class="heading2 heading heading-about pb-4">About</h2>
       <div class="row justify-content-around align-items-center">
@@ -124,7 +126,7 @@
     </div>
   </div>
 
-  <div class="skills pt-md-2 pt-lg-5">
+  <div class="skills pt-md-2 pt-lg-5" id="skills">
     <div class="container">
       <h2 class="heading heading2 heading-about">Skills</h2>
       <div class="row justify-content-start align-items-between px-lg-3">
@@ -343,26 +345,39 @@
   <div class="education" id="education">
     <div class="inner">
       <div class="container">
-        <h2 class="heading2">Education</h2>
+        <h2 class="heading2 heading-edu">Education</h2>
         <!-- <h4 class="quote"><span>“"</span>The Best way to predict your Future is to create it.<span>”</span></h4> -->
         <div class="row pt-md-5 pt-3 justify-content-between align-items-stretch">
-          <div class="col-lg-7 col-sm-10 col-11">
-            <div>
+          <div class="col-lg-4 col-sm-10 col-11">
+            <div class="p-4 card-edu">
+              <i class="fas fa-university"></i>
+              <h3 class="category">Graduation</h3>
               <h3 class="institution">Maharaja Surajmal Institue Of Technology</h4>
-              <h5 class="pb-3">Graduation</h5>
+              <h6 class="affi">(Affiliated to GGIPU)</h6>
               <h4 class="degree">Bachelor of Technology</h3>
               <h4 class="degree">(Computer Science Engineering)</h3>
               <p class="year">2019-2023</p>
               <h4 class="score pt-2"><b>GPA: </b>9.426 (till date)</h4></h3>
             </div>
           </div><!--col-lg-6 col-sm-10 col-11-->
-          <div class="col-lg-5 col-md-10 col-11">
-            <div>
+          <div class="col-lg-4 col-md-10 col-11 ">
+            <div class="p-4 card-edu">
+              <i class="fas fa-school"></i>
+              <h3 class="category">Snr. Sec. Education</h3>
               <h3 class="institution">Maxfort School, Rohini</h4>
-              <h5 class="pb-3">High School</h5>
+              <h6 class="affi">(Affiliated to CBSE, 12th)</h6>
               <h4 class="degree">Science (PCM)</h3>
-              <p class="year">2015-2019</p>
+              <p class="year">2017-2019</p>
               <h4 class="score pt-2 pb-0"><b>Class 12th: </b>92.6%</h4></h3>
+            </div>
+          </div><!--col-6-->
+          <div class="col-lg-4 col-md-10 col-11 ">
+            <div class="p-4 card-edu">
+              <i class="fas fa-school"></i>
+              <h3 class="category">Sec. Education</h3>
+              <h3 class="institution">Maxfort School, Rohini</h4>
+              <h6 class="affi">(Affiliated to CBSE, 10th)</h6>
+              <p class="year">2015-2019</p>
               <h4 class="score"><b>Class 10th: </b>10.00 CGPA</h4></h3>
             </div>
           </div><!--col-6-->
@@ -374,7 +389,7 @@
   <div class="experience" id="experience">
     <div class="inner">
       <div class="container">
-        <h2 class="heading2 heading-exp">Experience</h2>
+        <h2 class="heading2 heading-about">Experience</h2>
       </div>
     </div>
   </div>
@@ -396,6 +411,14 @@
         </div>
         <h3 class="subheading-project">Front End</h3>
         <div class="row">
+          <div class="col-12 col-lg-6">
+            <figure class="imghvr-zoom-out-flip-horiz project-figure">
+              <img src="/img/2048.png">
+              <figcaption>
+                Node.js
+              </figcaption>
+            </figure>
+          </div>
           <div class="col-12 col-lg-6">
             <figure class="imghvr-zoom-out-flip-horiz project-figure">
               <img src="/img/Restruant.png">

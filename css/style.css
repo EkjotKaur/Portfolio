@@ -103,10 +103,11 @@ a, a:link, a:active, a:visited{
 /* =================================== NABAR ENDS ===========================================*/
 
 .home{
-  background: url("/img/homeBackground.jpg");
+  background: url("/img/main.jpg");
   background-size: cover;
-  background-position: top;
-  background-position: left;
+  background-position-x: left;
+  background-position-y: 2px;
+  /* background-position: left; */
   background-attachment: fixed;
   text-align: center;
   height: 100vh;
@@ -116,13 +117,21 @@ a, a:link, a:active, a:visited{
   overflow-x:hidden;
 }
 
+.base{
+  /* background-color: #ccc; */
+  padding: 30px 40px;
+  width: fit-content;
+  margin: auto;
+}
+
 .home .inner{
   height: 100vh;
   background: rgb(51,51,51);
-  background: linear-gradient(0deg, rgba(51,51,51,0.1) 10%, rgba(85,85,85,0.7511379551820728) 53%, rgba(20,20,20,0.9) 90%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(55,55,55,0.8) 53%, rgba(0,0,0,1) 90%);
+  padding-top: 240px;
 }
 .name{
-  padding-top: 270px;
+  
   font-size: 7rem;
   font-weight: 200;
   font-family: 'Cinzel', serif;
@@ -161,7 +170,7 @@ a, a:link, a:active, a:visited{
 /* .heading-about{
   color: #000;
   text-shadow: white; */
-}
+/* } */
 hr{
  width: 400px;
  background-color: #fff;
@@ -256,16 +265,17 @@ hr{
   background: url("/img/education3.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 .education .inner{
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(85,85,85,0.8) 35%, rgba(255,255,255,0.5) 91%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(55,55,55,0.9) 50%, rgba(255,255,255,1) 91%);
+  color: #fff;
 }
 .heading2{
   font-size: 5rem;
   color: #fff;
-  padding-top: 350px;
+  padding-top: 100px;
   text-shadow: 3px 3px #000000;
   font-weight: 700;
 }
@@ -273,16 +283,38 @@ hr{
   color: #000;
   text-shadow: 3px 3px #aaa!important;
 }
+
+.card-edu{
+  /* border: 1px solid #888888; */
+  background-color: #555;
+  padding: 20px;
+  height: 100%;
+  border-radius: 15px;
+  text-align: center;
+}
+.card-edu i{
+  font-size: 5rem;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: auto;
+}
+.affi{
+  padding-bottom: 10px;
+}
 .institution{
-  font-size: 2rem;
-  font-weight: 800;
-  color: rgb(107, 6, 2);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(196, 73, 71);
+  text-shadow: .5px .5px rgb(14, 14, 14);
+}
+.category{
+  color: white;
 }
 .degree{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
   font-style: italic;
-  color: rgb(107, 6, 2);
+  color: rgb(233, 73, 64);
 }
 .score{
   font-size: 1.4rem;
@@ -297,16 +329,16 @@ hr{
 
 /* Experience */
 .experience{
-  background: url("/img/experience.jpg") no-repeat;
+  /* background: url("/img/experience.jpg") no-repeat;
   background-size: cover;
   background-position-x: 15%;
-  background-position-y: 20%;
+  background-position-y: 20%; */
   height: 1000px;
 }
 .experience .inner{
-  height: 1000px;
+  /* height: 1000px;
   background: rgb(119,119,119);
-  background: linear-gradient(180deg, rgba(59,59,59,0.9) 0%, rgba(85,85,85,0.8) 19%, rgba(255,255,255,1) 80%);
+  background: linear-gradient(180deg, rgba(59,59,59,0.9) 0%, rgba(85,85,85,0.8) 19%, rgba(255,255,255,1) 80%); */
 }
 .heading-exp{
   padding-top: 200px;
@@ -347,12 +379,12 @@ hr{
   display: none;
 }
 @media only screen and (max-width: 1400px){
-  .institution{
+  /* .institution{
     font-size: 1.8rem;
-  }
-  .degree{
+  } */
+  /* .degree{
     font-size: 1.5rem;
-  }
+  } */
   .score{
     font-size: 1.4rem;
   }
@@ -361,9 +393,9 @@ hr{
   }
 }
 @media only screen and (max-width: 1200px){
-  .institution{
+  /* .institution{
     font-size: 1.5rem;
-  }
+  } */
 }
 @media only screen and (max-width: 992px){
   /* .institution{
@@ -385,9 +417,9 @@ hr{
   .change-2{
     display: block;
   }
-  .institution:first-child{
+  /* .institution:first-child{
     color: #350101;
-  }
+  } */
   
 }
 @media only screen and (max-width: 830px) {
@@ -435,9 +467,9 @@ hr{
     background-position: bottom;
     padding-bottom: 200px;
   }
-  .degree{
+  /* .degree{
     font-size: 1.2rem;
-  }
+  } */
   .score{
     font-size: 1.1rem;
   }
@@ -459,12 +491,12 @@ hr{
     font-size: 2rem;
     text-shadow: 1px 1px #1a1b1b;
   }
-  .institution{
+  /* .institution{
     font-size: 1.5rem;
-  }
-  .degree{
+  } */
+  /* .degree{
     font-size: 1.1rem;
-  }
+  } */
   .score{
     font-size: 1rem;
     padding-bottom: 20px;
@@ -516,13 +548,13 @@ hr{
     font-size: 1.8rem;
     text-shadow: 1px 1px #000000;
   }
-  .institution{
+  /* .institution{
     font-size: 1.2rem;
     color: #5e0000;
-  }
-  .institution:first-child{
+  } */
+  /* .institution:first-child{
     color: #350101;
-  }
+  } */
 
 } 
 
@@ -552,12 +584,12 @@ hr{
     font-size: 1rem;
     text-shadow: 0.5px 0.5px #000000;
   } */
-  .institution{
+  /* .institution{
     font-size: 1.2rem;
-  }
-  .degree{
+  } */
+  /* .degree{
     font-size: 1rem;
-  }
+  } */
   .score{
     font-size: 1rem;
   }
