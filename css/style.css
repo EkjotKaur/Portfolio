@@ -481,12 +481,14 @@ hr{
   font-weight: 300;
   font-style: italic;
   color: rgb(233, 73, 64);
+  margin: 0;
 }
 .score{
   font-size: 1.4rem;
   font-weight: 600;
 }
 .year{
+  padding-top: 8px;
   font-size: 1.2rem;
   font-weight: 700;
   font-style: italic;
@@ -1235,4 +1237,14 @@ hr{
 }
 .nav-home .contact-link i{
   font-size: 1.5rem!important;
+}
+
+@media only screen and (max-width: 460px){
+  .institution{
+    font-size: 1.2rem;
+  }
+  .degree{
+    font-size: 1rem;
+    
+  }
 }
