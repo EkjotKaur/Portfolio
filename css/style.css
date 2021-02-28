@@ -183,7 +183,8 @@ hr{
 .skills{
   width: 100%;
   color: black;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
 }
 .subheading{
   font-size: 2.5rem;
@@ -265,7 +266,7 @@ hr{
   background: url("/img/education3.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 .education .inner{
   background: rgb(0,0,0);
@@ -334,7 +335,8 @@ hr{
   background-size: cover;
   background-position-x: 15%;
   background-position-y: 20%; */
-  height: 1000px;
+  /* height: 1000px; */
+  padding: 0 0 40px;
 }
 .experience .inner{
   /* height: 1000px;
@@ -602,7 +604,7 @@ hr{
   .screen{
     padding-left: 42px;
   }
-  .screen .skills .container, .screen .education .container{
+  .screen .skills .container{
     padding-left: 42px;
   }
 } 
@@ -637,7 +639,7 @@ hr{
   font-size: 1.1rem;
 }
 .heading-about{
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 1251px){
@@ -702,31 +704,22 @@ hr{
 }
 
 
-.contact{
-  background: url("/img/conatct.jpg");
-  /* height: 500px; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-blend-mode:multiply;
-  background-color: rgb(121, 2, 2); */
-}
 
-.conatct-div{
+
+/* .conatct-div{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* flex-wrap: wrap; */
-}
+  flex-wrap: wrap;
+} */
 .contact-nav{
   display: flex;
-  width: 40%;
-  justify-content:space-between;
-  /* padding: 50px; */
-  background: rgb(58, 57, 57);
+  /* width: 250px; */
+  justify-content:center;
+  padding: 20px 0;
+  /* background: rgb(58, 57, 57); */
   margin: 0 30px;
   color: white;
-  padding: 20px;
-  border-radius: 4px;
 }
 .contact-link{
   font-size: 1.2rem;
@@ -739,19 +732,19 @@ hr{
   padding-top: 10px;
 }
 .contact-link i{
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   color: #850101;
   text-shadow: -1px -1px #fff;
   padding-right: 10px;
 }
 .btn-download{
-  font-size: 2rem;
+  font-size: 1.3rem;
   background: #850101;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
 }
 .btn-download i{
-  font-size: 2.2rem;
+  font-size: 1.4rem;
 }
 .btn-download:hover{
   color: white;
@@ -759,7 +752,7 @@ hr{
 }
 
 .footer{
-  height: 120px;
+  min-height: 250px;
   background-color: #333;
   color: white;
   margin: auto;
@@ -767,18 +760,21 @@ hr{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-.footer div{
+/* .footer div{
   margin: 5px auto;
   width: fit-content;
   font-size: 1.1rem;
-}
+} */
 
 @media only screen and (max-width: 991px){
-  .contact-nav{
+  /* .contact-nav{
     display: flex;
     width: 60%;
-  }
+  } */
   .contact-link i{
     font-size: 2rem;
   }
@@ -791,31 +787,31 @@ hr{
     align-items: center;
     /* flex-wrap: wrap; */
   }
-  .contact-nav{
+  /* .contact-nav{
     width: 65%;
-  }
+  } */
 }
 @media only screen and (max-width: 570px){
-  .contact-nav{
+  /* .contact-nav{
     width: 80%;
-  }
+  } */
 }
 @media only screen and (max-width: 478px){
-  .contact-nav{
+  /* .contact-nav{
     width: 90%;
     padding: 10px
-  }
+  } */
   
 }
 @media only screen and (max-width: 442px){
-  .contact-nav{
+  /* .contact-nav{
     width: 99%;
-  }
+  } */
   .contact-link i, .btn-download{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .btn-download i{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .contact-link{
     font-size: 1rem;
@@ -824,10 +820,10 @@ hr{
 }
 @media only screen and (max-width: 370px){
   .contact-link i, .btn-download{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .btn-download i{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .contact-link{
     font-size: 0.9rem;
@@ -835,6 +831,252 @@ hr{
 
 }
 
+@media only screen and (max-width: 991px){
+  .contact-link{
+    font-size: 1rem;
+  }
+  .contact-link i{
+    font-size: 1rem!important;
+  }
+  
+}
+
 .a-over{
   position: relative!important;
+}
+
+.box-exp div{
+  background-color: #f7f7f7;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.subheading-exp{
+  font-size: 1.8rem;
+  color: rgb(107, 6, 2);
+  font-weight: 600;
+  height: fit-content!important;
+}
+
+
+.organisation-exp{
+  font-size: 1.3rem;
+  font-weight: 900;
+  height: fit-content!important;
+
+}
+.time{
+  font-style: italic;
+  font-weight: 300;
+  height: fit-content!important;
+
+}
+.para-exp{
+  padding-top: 10px;
+  height: fit-content!important;
+
+}
+
+.card-edu i{
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 705px){
+  .subheading-exp{
+    font-size: 1.3rem;
+  } 
+  .organisation-exp{
+    font-size: 1.1rem;  
+  }
+}
+
+.title{
+  font-weight: 800;
+  font-size: 2.2rem;
+  padding-bottom: 20px;
+}
+.req{
+  font-size: 1.2rem;
+  /* padding-bottom: 90px; */
+  font-style: oblique;
+}
+.btn-snap{
+  background-color: rgb(121, 2, 2)!important;
+  border-color: rgb(121, 2, 2);
+  padding: 8px 15px;
+  font-size: 1.2rem;
+}
+.btn-outline-url{
+  color:rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+}
+.btn-outline-url:hover{
+  background-color: rgb(255, 255, 255)!important;
+  color: #000;
+
+}
+
+.bg-figcap{
+  background-color: rgba(0,0,0,0.5)!important;
+  background-blend-mode: lighten;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 70px 30px!important;
+}
+
+@media only screen and (max-width: 1399px){
+  .bg-figcap{
+    padding: 30px 30px!important;
+  } 
+}
+@media only screen and (max-width: 1199px){
+  .title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  .req{
+    font-size: 1.1rem;
+  }
+  .btn-snap{
+    background-color: rgb(121, 2, 2)!important;
+    border-color: rgb(121, 2, 2);
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  }
+  .btn-outline-url{
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  } 
+}
+@media only screen and (max-width: 991px){
+  .title{
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+  }
+  .req{
+    font-size: 1.5rem;
+  }
+  .btn-snap{
+    padding: 10px 15px;
+    font-size: 1.3rem;
+  }
+  .btn-outline-url{
+    padding: 10px 15px;
+    font-size: 1.3rem;
+  } 
+}
+@media only screen and (max-width: 767px){
+  .title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  .req{
+    font-size: 1.1rem;
+  }
+  .btn-snap{
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  }
+  .btn-outline-url{
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  } 
+}
+@media only screen and (max-width: 570px){
+  .title{
+    font-size: 1.5rem;
+    padding-bottom: 8px;
+  }
+  .req{
+    font-size: 1rem;
+  }
+  .btn-snap{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  .btn-outline-url{
+    padding: 5px 10px;
+    font-size: 1rem;
+  } 
+}
+@media only screen and (max-width: 490px){
+  .title{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+  }
+  .req{
+    font-size: 1rem;
+  }
+  .btn-snap{
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+  .btn-outline-url{
+    padding: 4px 8px;
+    font-size: 1rem;
+  } 
+}
+@media only screen and (max-width: 430px){
+  .title{
+    font-size: 1.1rem;
+    padding-bottom: 4px;
+  }
+  .req{
+    font-size: 1rem;
+  }
+  .btn-snap{
+    padding: 3px 8px;
+    font-size: 1rem;
+  }
+  .btn-outline-url{
+    padding: 3px 8px;
+    font-size: 1rem;
+  } 
+  .bg-figcap{
+    padding: 20px!important;
+  }
+}
+@media only screen and (max-width: 375px){
+  .title{
+    font-size: 1rem;
+    padding-bottom: 4px;
+  }
+  .req{
+    font-size: 0.9rem;
+  }
+  .btn-snap{
+    padding: 3px 5px;
+    font-size: 0.9rem;
+  }
+  .btn-outline-url{
+    padding: 3px 5px;
+    font-size: 0.9rem;
+  } 
+  .bg-figcap{
+    padding: 15px!important;
+  }
+}
+@media only screen and (max-width: 328px){
+  .title{
+    font-size: 1rem;
+    padding-bottom: 4px;
+  }
+  .req{
+    font-size: 0.9rem;
+  }
+  .btn-snap{
+    padding: 3px 5px;
+    font-size: 0.9rem;
+  }
+  .btn-outline-url{
+    padding: 3px 5px;
+    font-size: 0.9rem;
+  } 
+  .bg-figcap{
+    padding: 10px!important;
+  }
 }
