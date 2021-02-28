@@ -20,9 +20,10 @@ body, html{
   z-index: 100;
 }
 .brandname{
-  padding: 50px;
+  /* padding: 50px;
   font-size: 2.2rem;
-  color: #fff;
+  color: #fff; */
+  padding-left: 20px;
 }
 .navbutton{
   display: none;
@@ -106,7 +107,7 @@ a, a:link, a:active, a:visited{
   background: url("/img/main-6.jfif");
   background-size: cover;
   background-position-x: center;
-  /* background-position-y: -20px; */
+  background-position-y: -40px;
   /* background-position: left; */
   /* background-attachment: fixed; */
   text-align: center;
@@ -142,7 +143,7 @@ a, a:link, a:active, a:visited{
   /* padding-top: 240px; */
 }
 .name{
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 6rem;
   font-weight: 400;
   /* font-family: 'Cinzel', serif; */
@@ -187,7 +188,7 @@ a, a:link, a:active, a:visited{
 }
 @media only screen and (max-width: 1230px){
   .name{
-    padding-top: 30px;
+    padding-top: 40px;
     padding-right: 40px;
   }
   .desc{
@@ -304,7 +305,7 @@ a, a:link, a:active, a:visited{
 }
 @media only screen and (max-width: 350px){
   .name{
-    padding-top: 0px;
+    padding-top: 20px;
     padding-right: 10px;
     font-size: 2.5rem;
     padding-bottom: 5px;
@@ -314,7 +315,7 @@ a, a:link, a:active, a:visited{
     padding-right: 10px;
   }
   .home{
-    background-position-x: -260px;
+    background-position-x: -330px;
   }
 }
 .about{
@@ -603,7 +604,7 @@ hr{
     background: url("/img/education6.jpg") no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
   }
   /* .degree{
     font-size: 1.2rem;
@@ -617,6 +618,9 @@ hr{
   
 } 
 @media only screen and (max-width: 600px) {
+  education{
+    padding-bottom: 30px;
+  }
   .score{
     font-size: 1rem;
     padding-bottom: 20px;
@@ -1213,3 +1217,19 @@ hr{
   color: white;
   text-shadow: 2px 2px black!important;
 } */
+
+.brand-img{
+  /* margin-left: 10px; */
+  width: 70px;
+  height: 70px;
+}
+@media only screen and (max-width: 813px){
+  .brand-img{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+  } 
+}
+.nav-home{
+  width: 100%!important;
+}

@@ -1,6 +1,6 @@
 window.onresize = function(){ location.reload(); }
 
-if(screen.width < 780) {
+if(screen.width < 814) {
   document.getElementById("navbtn").style.display = "flex";
   document.getElementById("navlinks").style.display = "none";
   document.getElementById("mynavbar").style.justifyContent = "flex-start";
