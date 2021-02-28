@@ -285,7 +285,7 @@ a, a:link, a:active, a:visited{
     padding-right: 60px;
   }
   .home{
-    background-position-x: -210px;
+    background-position-x: -300px;
   }
 }
 @media only screen and (max-width: 400px){
@@ -315,7 +315,7 @@ a, a:link, a:active, a:visited{
     padding-right: 10px;
   }
   .home{
-    background-position-x: -330px;
+    background-position-x: -400px;
   }
 }
 .about{
