@@ -285,7 +285,7 @@ a, a:link, a:active, a:visited{
     padding-right: 60px;
   }
   .home{
-    background-position-x: -300px;
+    background-position-x: -430px;
   }
 }
 @media only screen and (max-width: 400px){
@@ -348,7 +348,7 @@ hr{
   width: 100%;
   color: #fff;
   padding-bottom: 50px;
-  background-color: #ccc;
+  background-color: #f7f7f7;
 }
 .subheading{
   font-size: 2.5rem;
