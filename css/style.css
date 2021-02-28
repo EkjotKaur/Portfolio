@@ -1233,3 +1233,6 @@ hr{
 .nav-home{
   width: 100%!important;
 }
+.nav-home .contact-link i{
+  font-size: 1.5rem!important;
+}
