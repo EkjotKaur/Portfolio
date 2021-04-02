@@ -992,6 +992,7 @@ hr{
 .para-exp{
   padding-top: 10px;
   height: fit-content!important;
+  text-align: justify;
 
 }
 
