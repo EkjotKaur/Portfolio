@@ -1,0 +1,18 @@
+.Mymodal{
+    /* width: 80%; */
+    max-width: 600px;
+    margin: 3rem auto !important;
+}
+.moving{
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+.moving:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+}
+.modal{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
