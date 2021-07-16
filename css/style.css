@@ -436,9 +436,10 @@ hr {
   background: url("/img/education3.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 .education .inner {
+  padding-bottom: 20px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
@@ -511,7 +512,8 @@ hr {
   background-position-x: 15%;
   background-position-y: 20%; */
   /* height: 1000px; */
-  padding: 0 0 40px;
+  padding: 50px 0 40px;
+  background-color: #f7f7f7;
 }
 .experience .inner {
   /* height: 1000px;
@@ -966,11 +968,15 @@ hr {
 .a-over {
   position: relative !important;
 }
+.box-exp-div{
+  box-shadow: 0px 0 4px 1px #e7e7e7;
+}
 
 .box-exp div {
-  background-color: #f7f7f7;
+  background-color: #fdfdfd;
   height: 100%;
   border-radius: 10px;
+  
 }
 .titleDiv {
   display: flex;
