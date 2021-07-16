@@ -972,16 +972,30 @@ hr {
   height: 100%;
   border-radius: 10px;
 }
+.titleDiv {
+  display: flex;
+  align-items: center;
+  height: auto !important;
+  padding-bottom: 10px;
+}
 
 .subheading-exp {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: rgb(107, 6, 2);
   font-weight: 600;
   height: fit-content !important;
 }
+.imgDiv {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.imgDiv img {
+  width: 100%;
+}
 
 .organisation-exp {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 900;
   height: fit-content !important;
 }
@@ -1256,8 +1270,7 @@ hr {
   /* padding: 5px 10px; */
   max-width: 300px;
 }
-.main-btn-download:hover{
+.main-btn-download:hover {
   box-shadow: 2px 3px 2px 3px #333;
   background-color: rgba(0, 0, 0, 0.4) !important;
- 
 }
